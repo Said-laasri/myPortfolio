@@ -16,9 +16,24 @@
   bottom: 0;
   left: 120px;
   font-size: 18px;
-  font-family: 'La Belle Aurore', sans-serif;
+  font-family: 'La Belle Aurore';
 }
 
-.bottom-tags-html {
+.bottom-tag-html {
   margin-left: -20px;
+}
+
+.conttainer {
+  width: 100%;
+  will-change: contents;
+  height: 90%;
+  min-height: 566px;
+  position: absolute;
+  opacity: 0;
+  top: 5%;
+  margin: 0 auto;
+  z-index: 1;
+  transition: preserve-3d;
+  animation: fadeIn 1s forwards;
+  animation-delay: 1s;
 }
