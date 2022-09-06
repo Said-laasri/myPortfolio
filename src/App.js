@@ -1,6 +1,6 @@
-import { Routes, Route } from 'react-router-dom'
-import './App.scss'
-import Layout from './components/Layout/Layout'
+import { Routes, Route } from 'react-router-dom';
+import './App.scss';
+import Layout from './components/Layout/Layout';
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
         <Route path="/" element={<Layout />} />
       </Routes>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
