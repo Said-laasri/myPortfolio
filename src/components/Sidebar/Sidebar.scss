@@ -46,30 +46,29 @@ nav {
       transition: all 0.3s ease-out;
     }
 
-    &::after {
-      opacity: 1;
+    &:hover {
+      color: #ffd700;
+
+      svg {
+        opacity: 0;
+      }
+
+      &:after {
+        opacity: 1;
+      }
     }
-  }
 
-  &::after {
-    content: '';
-    font-size: 9px;
-    bottom: 0;
-    position: absolute;
-    display: block;
-    width: 100%;
-    text-align: center;
-    opacity: 0;
-    transition: all 0.3s ease-out;
-  }
-
-  &:hover {
-    color: #ffd700;
-
-    svg {
+    &:after {
+      content: '';
+      font-size: 9px;
+      bottom: 0;
+      position: absolute;
+      display: block;
+      width: 100%;
+      text-align: center;
       opacity: 0;
+      transition: all 0.3s ease-out;
     }
-
     &:first-child {
       &::after {
         content: 'HOME';
@@ -95,7 +94,6 @@ nav {
     }
   }
 }
-
 ul {
   position: absolute;
   bottom: 20px;
