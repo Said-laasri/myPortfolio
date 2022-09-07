@@ -20,12 +20,12 @@ function Sidebar() {
         <img className="sub-logo" src={logoSubtitle} alt="logosubtitle" />
       </Link>
       <nav>
-        <NavLink exact="true" activeclassName="active" to="/">
+        <NavLink exact="true" activeclassname="active" to="/">
           <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
         </NavLink>
         <NavLink
           exact="true"
-          activeclassName="active"
+          activeclassname="active"
           className="about-link"
           to="/about"
         >
@@ -33,7 +33,7 @@ function Sidebar() {
         </NavLink>
         <NavLink
           exact="true"
-          activeclassName="active"
+          activeclassname="active"
           className="contact-link"
           to="/contact"
         >
