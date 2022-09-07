@@ -1,11 +1,12 @@
-import React, { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+import Logo from './Logo/Logo';
 import AnimatedLetters from '../AnimatedLetters/AnimatedLetters';
 import logoS from '../../assets/images/logo-s.png';
 import './Home.scss';
 
 function Home() {
-  const [letterClass] = useState('text-animate');
+  const [letterClass, setletterClass] = useState('text-animate');
   const nameArray = ['a', 'i', 'd'];
   const jobArray = [
     'w',
@@ -24,13 +25,11 @@ function Home() {
     '.',
   ];
 
-  // useEffect(
-  //   () =>
-  //     setTimeout(() => {
-  //       setLetterClass('textanimatehover');
-  //     }, 4000),
-  //   []
-  // );
+  useEffect(() => {
+    setTimeout(() => {
+      setletterClass('text-animate-hover');
+    }, 4000);
+  }, []);
 
   return (
     <div className="container home-page">
@@ -60,6 +59,7 @@ function Home() {
           CONTACT ME
         </Link>
       </div>
+      <Logo />
     </div>
   );
 }
