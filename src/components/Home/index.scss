@@ -13,12 +13,12 @@
     font-size: 56px;
     line-height: 53px;
     margin: 0;
-    font-family: 'Coolvetica';
+    font-family: 'Coolvetica', sans-serif;
     font-weight: 400;
 
-    &:before {
+    &::before {
       content: '<h1>';
-      font-family: 'La Belle Aurore', cursive;
+      font-family: 'La Belle Aurore', cursive, sans-serif;
       color: #ffd700;
       font-size: 18px;
       position: absolute;
@@ -27,9 +27,9 @@
       opacity: 0.6;
     }
 
-    &:after {
+    &::after {
       content: '<h1/>';
-      font-family: 'La Belle Aurore', cursive;
+      font-family: 'La Belle Aurore', cursive, sans-serif;
       color: #ffd700;
       font-size: 18px;
       position: absolute;
@@ -80,12 +80,10 @@
   }
 }
 
-
-
 @media screen and (max-width: 1200px) {
   .tags,
-  .home-page h1:before,
-  .home-page h1:after {
+  .home-page h1::before,
+  .home-page h1::after {
     display: none;
   }
 
