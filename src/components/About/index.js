@@ -1,10 +1,7 @@
-import React from 'react';
 import './index.scss';
 
-function About() {
-  return (
-    <div>index</div>
-  );
-}
+const About = () => (
+  <div>index</div>
+);
 
 export default About;
