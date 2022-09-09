@@ -1,9 +1,8 @@
-/* eslint-disable function-paren-newline */
 import { useEffect, useRef } from 'react';
 import gsap from 'gsap-trial';
 import DrawSVGPlugin from 'gsap-trial/DrawSVGPlugin';
 import LogoS from '../../../assets/images/logo-s.png';
-import './Logo.scss';
+import './index.scss';
 
 const Logo = () => {
   const bgRef = useRef();
@@ -33,8 +32,8 @@ const Logo = () => {
         opacity: 1,
         delay: 4,
         duration: 4,
-      }
-    )
+      },
+    );
   }, []);
 
   return (
