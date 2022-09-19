@@ -34,17 +34,18 @@ const About = () => {
             />
           </h1>
           <p>
-            I&apos;m a very ambitious full-stack developer looking for a role in an
-            IT company with the opportunity to work with the latest
+            I&apos;m a very ambitious full-stack developer looking for a role in
+            an IT company with the opportunity to work with the latest
             technologies on challenging and diverse projects.
           </p>
           <p align="LEFT">
-            I&apos;m quiet confident, naturally curious, and perpetually working on
-            improving my skills.
+            I&apos;m quiet confident, naturally curious, and perpetually working
+            on improving my skills.
           </p>
           <p>
             If I need to define myself in one sentence that would be a family
-            person, a anime follower, a gamer, and a foodie. and tech-obsessed!!!
+            person, a visionary leader, a gamer, and a foodie. and
+            tech-obsessed!!!
           </p>
         </div>
 
