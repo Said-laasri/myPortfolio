@@ -103,7 +103,7 @@ const Contact = () => {
         <div className="map-wrap">
           <MapContainer
             center={[30.045642130148256, -9.566011540689077]}
-            zoom={13}
+            zoom={14}
             scrollWheelZoom={false}
           >
             <TileLayer
