@@ -1,6 +1,7 @@
-/* eslint-disable no-alert */
 import Loader from 'react-loaders';
-// import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
+import {
+  MapContainer, TileLayer, Marker, Popup,
+} from 'react-leaflet';
 import { useEffect, useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import AnimatedLetters from '../AnimatedLetters';
@@ -36,6 +37,7 @@ const Contact = () => {
         },
       );
   };
+
   return (
     <>
       <div className="container contact-page">
@@ -84,6 +86,34 @@ const Contact = () => {
               </ul>
             </form>
           </div>
+        </div>
+        <div className="info-map">
+          Said Laasri,
+          <br />
+          Morocco,
+          <br />
+          Sous Massa Deraa
+          <br />
+          Belfaa
+          {' '}
+          <br />
+          <br />
+          <span>Laasrisaid34@gmail.com</span>
+        </div>
+        <div className="map-wrap">
+          <MapContainer
+            center={[30.045642130148256, -9.566011540689077]}
+            zoom={13}
+            scrollWheelZoom={false}
+          >
+            <TileLayer
+              attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+              url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+            />
+            <Marker position={[30.045642130148256, -9.566011540689077]}>
+              <Popup>Said lives here, come over for a cup of coffee :)</Popup>
+            </Marker>
+          </MapContainer>
         </div>
       </div>
       <Loader type="pacman" />
