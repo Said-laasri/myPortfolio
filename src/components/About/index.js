@@ -1,4 +1,3 @@
-/* eslint-disable react/no-unknown-property */
 import { useEffect, useState } from 'react';
 import {
   faGithub,
@@ -6,7 +5,13 @@ import {
   faGitAlt,
   faHtml5,
   faJsSquare,
+  faBootstrap,
   faReact,
+  faDev,
+  faFigma,
+  faSass,
+  faUbuntu,
+  faNpm,
 } from '@fortawesome/free-brands-svg-icons';
 import Loader from 'react-loaders';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -38,7 +43,7 @@ const About = () => {
             an IT company with the opportunity to work with the latest
             technologies on challenging and diverse projects.
           </p>
-          <p align="LEFT">
+          <p>
             I&apos;m quiet confident, naturally curious, and perpetually working
             on improving my skills.
           </p>
@@ -68,6 +73,26 @@ const About = () => {
             </div>
             <div className="face6">
               <FontAwesomeIcon icon={faGitAlt} color="#EC4D28" />
+            </div>
+          </div>
+          <div className="cubespinner1">
+            <div className="face1">
+              <FontAwesomeIcon icon={faBootstrap} color="#DD0031" />
+            </div>
+            <div className="face2">
+              <FontAwesomeIcon icon={faDev} color="#F06529" />
+            </div>
+            <div className="face3">
+              <FontAwesomeIcon icon={faFigma} color="#28A4D9" />
+            </div>
+            <div className="face4">
+              <FontAwesomeIcon icon={faSass} color="#5ED4F4" />
+            </div>
+            <div className="face5">
+              <FontAwesomeIcon icon={faUbuntu} color="#EFD81D" />
+            </div>
+            <div className="face6">
+              <FontAwesomeIcon icon={faNpm} color="#EC4D28" />
             </div>
           </div>
         </div>
