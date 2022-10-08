@@ -1,19 +1,18 @@
 import { useEffect, useState } from 'react';
 import {
-  faGithub,
   faCss3,
   faGitAlt,
   faHtml5,
   faJsSquare,
   faBootstrap,
   faReact,
-  faDev,
-  faFigma,
   faSass,
-  faUbuntu,
   faNpm,
 } from '@fortawesome/free-brands-svg-icons';
 import Loader from 'react-loaders';
+import { DiRuby, DiRor, DiPostgresql } from 'react-icons/di';
+
+import { SiRedux } from 'react-icons/si';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import AnimatedLetters from '../AnimatedLetters';
 import './index.scss';
@@ -57,7 +56,7 @@ const About = () => {
         <div className="stage-cube-cont">
           <div className="cubespinner">
             <div className="face1">
-              <FontAwesomeIcon icon={faGithub} color="#DD0031" />
+              <FontAwesomeIcon icon={faSass} color="#5ED4F4" />
             </div>
             <div className="face2">
               <FontAwesomeIcon icon={faHtml5} color="#F06529" />
@@ -72,24 +71,24 @@ const About = () => {
               <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" />
             </div>
             <div className="face6">
-              <FontAwesomeIcon icon={faGitAlt} color="#EC4D28" />
+              <SiRedux color="#7248B6" />
             </div>
           </div>
           <div className="cubespinner1">
             <div className="face1">
-              <FontAwesomeIcon icon={faBootstrap} color="#DD0031" />
+              <FontAwesomeIcon icon={faGitAlt} color="#F77E21" />
             </div>
             <div className="face2">
-              <FontAwesomeIcon icon={faDev} color="#F06529" />
+              <DiRuby color="#C21010" />
             </div>
             <div className="face3">
-              <FontAwesomeIcon icon={faFigma} color="#28A4D9" />
+              <DiPostgresql fontSize="16rem" color="#336791" />
             </div>
             <div className="face4">
-              <FontAwesomeIcon icon={faSass} color="#5ED4F4" />
+              <FontAwesomeIcon icon={faBootstrap} color="#DD0031" />
             </div>
             <div className="face5">
-              <FontAwesomeIcon icon={faUbuntu} color="#EFD81D" />
+              <DiRor color="#C21010" />
             </div>
             <div className="face6">
               <FontAwesomeIcon icon={faNpm} color="#EC4D28" />
