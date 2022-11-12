@@ -80,7 +80,7 @@
   }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 770px) {
   .tags,
   .home-page h1::before,
   .home-page h1::after {
@@ -121,4 +121,18 @@
     left: 0;
     margin: auto;
   }
+}
+
+.photo {
+  position: relative;
+  left: 50%;
+  top: 14%;
+  animation: fadeIn 2s 5s backwards;
+}
+
+.photo > img {
+  width: 220px;
+  height: 280px;
+  border-radius: 80%;
+  box-shadow: #ffd700 6px 6px 6px 6px;
 }
