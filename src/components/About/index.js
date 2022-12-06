@@ -1,14 +1,18 @@
-/* eslint-disable react/no-unknown-property */
 import { useEffect, useState } from 'react';
 import {
-  faGithub,
   faCss3,
   faGitAlt,
   faHtml5,
   faJsSquare,
+  faBootstrap,
   faReact,
+  faSass,
+  faNpm,
 } from '@fortawesome/free-brands-svg-icons';
 import Loader from 'react-loaders';
+import { DiRuby, DiRor, DiPostgresql } from 'react-icons/di';
+
+import { SiRedux } from 'react-icons/si';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import AnimatedLetters from '../AnimatedLetters';
 import './index.scss';
@@ -38,7 +42,7 @@ const About = () => {
             an IT company with the opportunity to work with the latest
             technologies on challenging and diverse projects.
           </p>
-          <p align="LEFT">
+          <p>
             I&apos;m quiet confident, naturally curious, and perpetually working
             on improving my skills.
           </p>
@@ -52,7 +56,7 @@ const About = () => {
         <div className="stage-cube-cont">
           <div className="cubespinner">
             <div className="face1">
-              <FontAwesomeIcon icon={faGithub} color="#DD0031" />
+              <FontAwesomeIcon icon={faSass} color="#5ED4F4" />
             </div>
             <div className="face2">
               <FontAwesomeIcon icon={faHtml5} color="#F06529" />
@@ -67,7 +71,27 @@ const About = () => {
               <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" />
             </div>
             <div className="face6">
-              <FontAwesomeIcon icon={faGitAlt} color="#EC4D28" />
+              <SiRedux color="#7248B6" />
+            </div>
+          </div>
+          <div className="cubespinner1">
+            <div className="face1">
+              <FontAwesomeIcon icon={faGitAlt} color="#F77E21" />
+            </div>
+            <div className="face2">
+              <DiRuby color="#C21010" />
+            </div>
+            <div className="face3">
+              <DiPostgresql fontSize="16rem" color="#336791" />
+            </div>
+            <div className="face4">
+              <FontAwesomeIcon icon={faBootstrap} color="#DD0031" />
+            </div>
+            <div className="face5">
+              <DiRor color="#C21010" />
+            </div>
+            <div className="face6">
+              <FontAwesomeIcon icon={faNpm} color="#EC4D28" />
             </div>
           </div>
         </div>

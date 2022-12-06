@@ -5,6 +5,7 @@
   "dependencies": {
     "@emailjs/browser": "^3.7.0",
     "@firebase/firestore": "^3.4.15",
+    "@fortawesome/fontawesome-svg-core": "^6.2.0",
     "@fortawesome/free-brands-svg-icons": "^6.2.0",
     "@fortawesome/free-solid-svg-icons": "^6.2.0",
     "@fortawesome/react-fontawesome": "^0.2.0",
@@ -12,15 +13,18 @@
     "cra-template": "1.2.0",
     "firebase": "^9.9.4",
     "gsap-trial": "^3.11.1",
+    "hero-slider": "^3.1.0",
     "leaflet": "^1.9.1",
     "loaders.css": "^0.1.2",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-icons": "^4.4.0",
     "react-leaflet": "^4.1.0",
     "react-loaders": "^3.0.1",
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
+    "react-slideshow-image": "^4.0.5",
     "sass": "^1.54.8"
   },
   "scripts": {
@@ -58,9 +62,11 @@
     "eslint-plugin-jsx-a11y": "^6.6.1",
     "eslint-plugin-react": "^7.31.7",
     "eslint-plugin-react-hooks": "^4.6.0",
+    "file-loader": "^6.2.0",
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^21.0.0",
     "stylelint-csstree-validator": "^1.9.0",
-    "stylelint-scss": "^3.21.0"
+    "stylelint-scss": "^3.21.0",
+    "url-loader": "^4.1.1"
   }
 }
