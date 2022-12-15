@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "homepage": " https://said-laasri.github.io/myPortfolio/",
+  "main": "index.js",
   "dependencies": {
     "@emailjs/browser": "^3.7.0",
     "@firebase/firestore": "^3.4.15",
