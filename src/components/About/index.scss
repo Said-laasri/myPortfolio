@@ -143,3 +143,27 @@
     color: #ec4d28;
   }
 }
+
+@media screen and (max-width: 770px) {
+  .stage-cube-cont {
+    top: 90%;
+    left: -13%;
+    height: 435px;
+    position: absolute;
+    margin: 0;
+    gap: 228px;
+    display: flex;
+    flex-direction: column;
+    width: inherit;
+    align-items: baseline;
+    justify-items: start;
+  }
+
+  .cubespinner1 {
+    transform-origin: 75px 77px 0;
+  }
+
+  .cubespinner {
+    transform-origin: 75px 77px 0;
+  }
+}

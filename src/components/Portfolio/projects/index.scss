@@ -7,34 +7,10 @@
   top: 10%;
   left: 13%;
   font-size: 35rem;
-  border-radius: 50px;
-  animation: 4s linear 0s infinite alternate borderAnimation;
-}
-
-@keyframes borderAnimation {
-  0% {
-    border: 5px solid rgb(0, 0, 0);
-  }
-
-  25% {
-    border: 5px solid rgb(236, 8, 8);
-  }
-
-  50% {
-    border: 5px solid rgb(245, 241, 12);
-  }
-
-  75% {
-    border: 5px solid rgb(11, 7, 248);
-  }
-
-  100% {
-    border: 5px solid rgb(223, 8, 187);
-  }
 }
 
 .images {
-  border-radius: 50px;
+  border-radius: 5px;
 }
 
 .flat-button {
@@ -53,5 +29,35 @@
   &:hover {
     background: #ffd700;
     color: #333;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .slide-container {
+    width: 100%;
+    position: relative;
+    position: absolute;
+    top: 10%;
+    left: 0%;
+    font-size: 16rem;
+  }
+
+  .flat-button {
+    color: #ffd700;
+    padding: 10px;
+    position: relative;
+    left: 6%;
+    top: 50px;
+    font-size: 15px;
+    font-weight: 700;
+    margin-left: 10px;
+    background-color: black;
+    border-radius: 20px;
+    border: 1px solid #ffd700;
+
+    &:hover {
+      background: #ffd700;
+      color: #333;
+    }
   }
 }

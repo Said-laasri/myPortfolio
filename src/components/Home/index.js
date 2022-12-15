@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import Loader from 'react-loaders';
-import said from '../../assets/images/photoS.jpeg';
 import AnimatedLetters from '../AnimatedLetters';
 import LogoTitle from '../../assets/images/logo-s.png';
 import Logo from './Logo';
@@ -12,9 +11,16 @@ const Home = () => {
 
   const nameArray = ['a', 'i', 'd'];
   const jobArray = [
-    'w',
-    'e',
-    'b',
+    'f',
+    'u',
+    'l',
+    'l',
+    ' ',
+    's',
+    't',
+    'a',
+    'c',
+    'k',
     ' ',
     'd',
     'e',
@@ -57,16 +63,13 @@ const Home = () => {
             <AnimatedLetters
               letterClass={letterClass}
               strArray={jobArray}
-              idx={22}
+              idx={15}
             />
           </h1>
           <h2>Web Developer/ JavaScript / React / Ruby</h2>
           <Link to="/contact" className="flat-button">
             CONTACT ME
           </Link>
-        </div>
-        <div className="photo">
-          <img src={`${said}`} alt="Said Laasri" />
         </div>
         <Logo />
       </div>

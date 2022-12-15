@@ -122,17 +122,3 @@
     margin: auto;
   }
 }
-
-.photo {
-  position: relative;
-  left: 50%;
-  top: 14%;
-  animation: fadeIn 2s 5s backwards;
-}
-
-.photo > img {
-  width: 220px;
-  height: 280px;
-  border-radius: 80%;
-  box-shadow: #ffd700 6px 6px 6px 6px;
-}
