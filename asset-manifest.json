@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.d55eb787.css",
-    "main.js": "/static/js/main.eb027d39.js",
-    "static/media/zoo.png": "/static/media/zoo.394029233b2b0d395426.png",
-    "static/media/show.png": "/static/media/show.d5ad9c2b2c52bb51b14b.png",
-    "static/media/space.png": "/static/media/space.e46315923615c082d2d8.png",
-    "static/media/leaderboard.jpg": "/static/media/leaderboard.e28a7a4f1a2caf8220a3.jpg",
-    "static/media/math.png": "/static/media/math.2ea05d23110cf658cd36.png",
-    "static/media/book.png": "/static/media/book.7fe5005b5c739607e348.png",
-    "static/media/helvetica-neu.ttf": "/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
-    "static/media/sub-Said-logo.png": "/static/media/sub-Said-logo.c56269826899778f22cb.png",
-    "static/media/LaBelleAurore.woff": "/static/media/LaBelleAurore.9c5433c64baa43d1d274.woff",
-    "static/media/LaBelleAurore.woff2": "/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
-    "static/media/logo-s.png": "/static/media/logo-s.bfc9f81846bda5218dab.png",
-    "static/media/CoolveticaRg-Regular.woff": "/static/media/CoolveticaRg-Regular.8307bfa187bccdc55f4d.woff",
-    "static/media/CoolveticaRg-Regular.woff2": "/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
-    "index.html": "/index.html",
-    "main.d55eb787.css.map": "/static/css/main.d55eb787.css.map",
-    "main.eb027d39.js.map": "/static/js/main.eb027d39.js.map"
+    "main.css": "/myPortfolio/static/css/main.b0cdadfe.css",
+    "main.js": "/myPortfolio/static/js/main.c8f569d8.js",
+    "static/media/zoo.png": "/myPortfolio/static/media/zoo.394029233b2b0d395426.png",
+    "static/media/show.png": "/myPortfolio/static/media/show.d5ad9c2b2c52bb51b14b.png",
+    "static/media/space.png": "/myPortfolio/static/media/space.e46315923615c082d2d8.png",
+    "static/media/leaderboard.jpg": "/myPortfolio/static/media/leaderboard.e28a7a4f1a2caf8220a3.jpg",
+    "static/media/math.png": "/myPortfolio/static/media/math.2ea05d23110cf658cd36.png",
+    "static/media/book.png": "/myPortfolio/static/media/book.7fe5005b5c739607e348.png",
+    "static/media/helvetica-neu.ttf": "/myPortfolio/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
+    "static/media/sub-Said-logo.png": "/myPortfolio/static/media/sub-Said-logo.c56269826899778f22cb.png",
+    "static/media/LaBelleAurore.woff": "/myPortfolio/static/media/LaBelleAurore.9c5433c64baa43d1d274.woff",
+    "static/media/LaBelleAurore.woff2": "/myPortfolio/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
+    "static/media/logo-s.png": "/myPortfolio/static/media/logo-s.bfc9f81846bda5218dab.png",
+    "static/media/CoolveticaRg-Regular.woff": "/myPortfolio/static/media/CoolveticaRg-Regular.8307bfa187bccdc55f4d.woff",
+    "static/media/CoolveticaRg-Regular.woff2": "/myPortfolio/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
+    "index.html": "/myPortfolio/index.html",
+    "main.b0cdadfe.css.map": "/myPortfolio/static/css/main.b0cdadfe.css.map",
+    "main.c8f569d8.js.map": "/myPortfolio/static/js/main.c8f569d8.js.map"
   },
   "entrypoints": [
-    "static/css/main.d55eb787.css",
-    "static/js/main.eb027d39.js"
+    "static/css/main.b0cdadfe.css",
+    "static/js/main.c8f569d8.js"
   ]
 }
