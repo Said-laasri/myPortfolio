@@ -2,7 +2,7 @@
   "name": "myportfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://said-laasri.github.io/myPortfolio/",
+  "homepage": "https://said-laasri.github.io/",
   "dependencies": {
     "@emailjs/browser": "^3.7.0",
     "@firebase/firestore": "^3.4.15",
