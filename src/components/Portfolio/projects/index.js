@@ -17,8 +17,8 @@ const slideImages = [
   },
   {
     url: `${animalzoo}`,
-    live: 'https://bright-torte-dc130d.netlify.app/',
-    source: 'https://github.com/Said-laasri/Animal-Zoo',
+    live: 'https://said-laasri.github.io/Capstone-Logistic-conference/',
+    source: 'https://github.com/Said-laasri/Capstone-Logistic-conference',
   },
   {
     url: `${book}`,
@@ -37,8 +37,8 @@ const slideImages = [
   },
   {
     url: `${leaderboard}`,
-    live: 'https://incandescent-souffle-974b06.netlify.app/',
-    source: 'https://github.com/Said-laasri/Leaderboard',
+    live: 'https://car-rental-k2ms0rho4-nickemma.vercel.app/',
+    source: 'https://github.com/NickEmma/car-rental-app',
   },
 ];
 
