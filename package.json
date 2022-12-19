@@ -26,7 +26,8 @@
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
     "react-slideshow-image": "^4.0.5",
-    "sass": "^1.54.8"
+    "sass": "^1.54.8",
+    "swiper": "^8.4.5"
   },
   "scripts": {
     "start": "react-scripts start",
