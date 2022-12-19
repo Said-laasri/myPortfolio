@@ -32,7 +32,7 @@ const slideImages = [
   },
   {
     url: `${space}`,
-    live: 'https://said-laasri.github.io/My-Porfolio-Website/',
+    live: 'https://space-hub-eight.vercel.app/',
     source: 'https://github.com/Said-laasri/space-hub',
   },
   {
