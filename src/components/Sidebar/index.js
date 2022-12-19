@@ -14,6 +14,7 @@ import {
   faSuitcase,
   faBars,
   faClose,
+  faSkiing,
 } from '@fortawesome/free-solid-svg-icons';
 import { Link, NavLink } from 'react-router-dom';
 import LogoSubtitle from '../../assets/images/sub-Said-logo.png';
@@ -48,6 +49,14 @@ const Sidebar = () => {
           onClick={() => setShowNav(false)}
         >
           <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
+        </NavLink>
+        <NavLink
+          activeclassname="active"
+          className="skills-link"
+          to="/skills"
+          onClick={() => setShowNav(false)}
+        >
+          <FontAwesomeIcon icon={faSkiing} color="#4d4d4e" />
         </NavLink>
         <NavLink
           activeclassname="active"

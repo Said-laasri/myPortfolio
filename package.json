@@ -2,8 +2,6 @@
   "name": "myportfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": " https://said-laasri.github.io/myPortfolio/",
-  "main": "index.js",
   "dependencies": {
     "@emailjs/browser": "^3.7.0",
     "@firebase/firestore": "^3.4.15",
@@ -22,21 +20,20 @@
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-icons": "^4.4.0",
+    "react-icons": "^4.7.1",
     "react-leaflet": "^4.1.0",
     "react-loaders": "^3.0.1",
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
     "react-slideshow-image": "^4.0.5",
-    "sass": "^1.54.8"
+    "sass": "^1.54.8",
+    "swiper": "^8.4.5"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
