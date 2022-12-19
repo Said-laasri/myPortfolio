@@ -14,13 +14,6 @@ import './index.scss';
 
 const slides = [
   {
-    url: `${tvshow}`,
-    live: 'https://bespoke-kelpie-bb37b1.netlify.app/',
-    source: 'https://github.com/Said-laasri/Tv-show',
-    title: 'Tv-show',
-    description: 'Tv-show is a website for a tv show that contains information about the tv show and the episodes and the schedule of the tv show.',
-  },
-  {
     url: `${animalzoo}`,
     live: 'https://said-laasri.github.io/Capstone-Logistic-conference/',
     source: 'https://github.com/Said-laasri/Capstone-Logistic-conference',
@@ -33,6 +26,13 @@ const slides = [
     source: 'https://github.com/Said-laasri/Awsome-Book',
     title: 'Awsome-Book',
     description: 'Awsome books website is a page that contains information about list of books with the title and author names.',
+  },
+  {
+    url: `${tvshow}`,
+    live: 'https://bespoke-kelpie-bb37b1.netlify.app/',
+    source: 'https://github.com/Said-laasri/Tv-show',
+    title: 'Tv-show',
+    description: 'Tv-show is a website for a tv show that contains information about the tv show and the episodes and the schedule of the tv show.',
   },
   {
     url: `${math}`,
