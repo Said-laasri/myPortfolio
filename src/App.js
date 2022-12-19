@@ -5,6 +5,7 @@ import About from './components/About';
 import Contact from './components/Contact';
 import './App.scss';
 import Portfolio from './components/Portfolio';
+import Skills from './components/Skills';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
+          <Route path="skills" element={<Skills />} />
           <Route path="contact" element={<Contact />} />
           <Route path="portfolio" element={<Portfolio />} />
         </Route>
