@@ -22,9 +22,11 @@
   height: 40%;
   background-color: #141413;
   opacity: 0.2;
+
   &:hover {
     opacity: 0.9;
   }
+
   h2 {
     font-size: large;
     color: #ffd700;
@@ -39,7 +41,6 @@
     font-weight: 400;
     margin-left: 2rem;
   }
-
 }
 
 .swiper-slide {
@@ -80,6 +81,7 @@
   float: left;
   animation: fadeInAnimation 1s 1.8s backwards;
   white-space: nowrap;
+
   &:hover {
     background-color: #f5d106;
     color: #141413;
@@ -93,7 +95,6 @@
   margin-left: 2rem;
 }
 
-
 @media screen and (max-width: 768px) {
   .swiper {
     margin-top: 1%;
@@ -104,14 +105,15 @@
 
   .imagecontainer {
     opacity: 0.3;
+
     &:hover {
       opacity: 0.9;
     }
+
     p {
       text-align: left;
       margin-bottom: -1rem;
       font-size: 12px;
     }
   }
-  
 }
