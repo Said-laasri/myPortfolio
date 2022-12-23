@@ -22,8 +22,8 @@ const slides = [
   },
   {
     url: `${book}`,
-    live: 'https://said-laasri.github.io/Awsome-Book/',
-    source: 'https://github.com/Said-laasri/Awsome-Book',
+    live: 'https://said-laasri.github.io/Awesome-Book/',
+    source: 'https://github.com/Said-laasri/Awesome-Book',
     title: 'Awesome-Book',
     description: 'Awesome-Book website is a page that contains information about list of books with the title and author names.',
   },
@@ -46,14 +46,14 @@ const slides = [
     live: 'https://space-hub-eight.vercel.app/',
     source: 'https://github.com/Said-laasri/space-hub',
     title: 'Space-Hub',
-    description: 'Space-Hub website is a page that contains information about all space missions and rocket used to travel in space . also you can joing any mission and reserve any rocket availabale for the mission.',
+    description: 'Space-Hub website is a page that contains information about all space missions and rockets used to travel in space. Also, you can join any mission and reserve any available rocket for the mission.',
   },
   {
     url: `${leaderboard}`,
     live: 'https://car-rental-k2ms0rho4-nickemma.vercel.app/',
     source: 'https://github.com/NickEmma/car-rental-app',
-    title: 'Exotic Rental',
-    description: 'Exotic Rental Car is a car rental agencies primarily serve people who requires a temporary vehicle. It allows users to create an account, login, and book a car for a specific period of time. It also allows users to view all available cars, and view a specific car. It also allows users to view all bookings made by a specific user.',
+    title: 'Exotic Rentals',
+    description: 'Exotic Rental Car is a car rentals agencie primarily serves people who require a temporary vehicle. It allows users to create an account, log in, and book a car for a specific period. It also allows users to view all available cars, and display each one. It also allows users to view all bookings made by each user.',
   },
   {
     url: `${bookstore}`,
