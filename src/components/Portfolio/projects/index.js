@@ -53,7 +53,7 @@ const slides = [
     live: 'https://car-rental-k2ms0rho4-nickemma.vercel.app/',
     source: 'https://github.com/NickEmma/car-rental-app',
     title: 'Exotic Rentals',
-    description: 'Exotic Rental Car is a car rentals agencie primarily serves people who require a temporary vehicle. It allows users to create an account, log in, and book a car for a specific period. It also allows users to view all available cars, and display each one. It also allows users to view all bookings made by each user.',
+    description: 'Exotic Rental Car is a car rentals agency primarily serves people who require a temporary vehicle. It allows users to create an account, log in, and book a car for a specific period. It also allows users to view all available cars, and display each one. It also allows users to view all bookings made by each user.',
   },
   {
     url: `${bookstore}`,
