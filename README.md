@@ -2,8 +2,7 @@
 
 - [📗 Table of Contents](#-table-of-contents)
 - [📖 Exotic Rentals ](#-exotic-rentals--)
-  - [Backend](#backend)
-  - [🛠 Built With ](#-built-with-)
+    - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
   - [🚀 Live Demo ](#-live-demo-)
