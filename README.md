@@ -30,6 +30,8 @@ HTML
 React
 Css
 JavaScript
+Emailjs
+swiperls
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
