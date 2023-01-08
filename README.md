@@ -26,13 +26,19 @@
 MyPortfolio app is a resume of my journey and skills and the project I worked on and a way to contact me in need of reaching out
 
 ## 🛠 Built With <a name="built-with"></a>
-HTML 
-React
-Css
-JavaScript
-Emailjs
-swiperls
+<ul>
+<li>HTML </li>
+<li>React</li>
 
+<li></li>
+Css
+<li></li>
+JavaScript
+<li></li>
+Emailjs
+<li></li>
+swiperls
+</ul>
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Demo Link](https://said-laasri-git-dev-said-laasri.vercel.app/)
