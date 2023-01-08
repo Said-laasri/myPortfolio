@@ -29,15 +29,10 @@ MyPortfolio app is a resume of my journey and skills and the project I worked on
 <ul>
 <li>HTML </li>
 <li>React</li>
-
-<li></li>
-Css
-<li></li>
-JavaScript
-<li></li>
-Emailjs
-<li></li>
-swiperls
+<li>Css</li>
+<li>JavaScript</li>
+<li>Emailjs</li>
+<li>swiperls</li>
 </ul>
 ## 🚀 Live Demo <a name="live-demo"></a>
 
