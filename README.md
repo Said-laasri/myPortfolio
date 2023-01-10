@@ -28,37 +28,12 @@ MyPortfolio app is a resume of my journey and skills and the project I worked on
 
 ## 🛠 Built With <a name="built-with"></a>
 <ul>
-<<<<<<< HEAD
-<li>
-HTML 
-</li>
-<li>
-React
-</li>
-<li>
-Css
-</li>
-<li>
-JavaScript
-</li>
-<li>
-Emailjs
-</li>
-<li>
-swiperjs
-</li>
-
+  <li>HTML </li>
+  <li>Css</li>
+  <li>JavaScript</li>
+  <li>Emailjs</li>
+  <li>swiperljs</li>
 </ul>
-
-=======
-<li>HTML </li>
-<li>Css</li>
-<li>JavaScript</li>
-<li>Emailjs</li>
-<li>swiperls</li>
-</ul>
->>>>>>> 995337e4f591359bfe207ad3a556d97349154732
-## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Demo Link](https://said-laasri-git-dev-said-laasri.vercel.app/)
 
