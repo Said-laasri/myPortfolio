@@ -23,15 +23,31 @@
 # 📖 myPortfolio <a name="about-project"></a>
 
 
-MyPortfolio app is a resume of my journey and skills and the project I worked on and a way to contact me in need of reaching out
+MyPortfolio app is a resume of my journey and skills and the project I worked on and a way to contact me in need of re
+
 
 ## 🛠 Built With <a name="built-with"></a>
+<ul>
+<li>
 HTML 
+</li>
+<li>
 React
+</li>
+<li>
 Css
+</li>
+<li>
 JavaScript
+</li>
+<li>
 Emailjs
-swiperls
+</li>
+<li>
+swiperjs
+</li>
+
+</ul>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
