@@ -38,7 +38,7 @@ MyPortfolio app is a resume of my journey and skills and the project I worked on
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://said-laasri-git-dev-said-laasri.vercel.app/)
+- [Live Demo Link](https://my-portfolio-sepia-one.vercel.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
